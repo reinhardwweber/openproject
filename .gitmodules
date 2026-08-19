@@ -1,0 +1,3 @@
+[submodule "tools/openproject-ce-mcp"]
+	path = tools/openproject-ce-mcp
+	url = https://github.com/reinhardwweber/openproject-ce-mcp.git
