@@ -1,3 +1,7 @@
 [submodule "tools/openproject-ce-mcp"]
 	path = tools/openproject-ce-mcp
 	url = https://github.com/reinhardwweber/openproject-ce-mcp.git
+[submodule "infra/openproject"]
+	path = infra/openproject
+	url = https://github.com/opf/openproject-docker-compose.git
+	branch = stable/17
