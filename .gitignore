@@ -2,6 +2,8 @@
 .env
 *.env
 !*.env.example
+docs/op token.txt
+*token*.txt
 
 # macOS
 .DS_Store

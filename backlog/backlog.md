@@ -16,4 +16,11 @@ Aufgaben für den Aufbau dieses Ticketsystem-Prototyps selbst. Das inhaltliche s
 ## Später (nicht jetzt)
 
 - [ ] Migration/Ablösung von `stattreisen/Projekt/backlog.md` + Trello, falls sich der Prototyp bewährt
-- [ ] Entscheidung über gemeinsam genutzten Server statt lokaler Einzelinstanzen
+- [x] Entscheidung über gemeinsam genutzten Server statt lokaler Einzelinstanzen – 26.08.2026: Hetzner CX33, siehe `docs/entscheidungen/2026-08-26-produktivserver-hetzner.md`
+
+## Server-Betrieb (ab 26.08.2026)
+
+- [x] Server gehärtet, Docker + Compose installiert, Stack läuft unter `https://openproject.webteam.de`
+- [x] Daten aus der lokalen Instanz übernommen (243 Work Packages, 5 Projekte)
+- [ ] Automatisiertes Backup auf dem Server einrichten (`control/backup`-Container)
+- [ ] Login-Zugangsdaten auf dem Server ändern (noch die aus der lokalen Instanz übernommenen)
