@@ -23,3 +23,8 @@ Niemals `.env`-Dateien, API-Token, DB-Passwörter oder `SECRET_KEY_BASE` committ
 ## Arbeitsweise / Freigaben
 
 Noch keine Vorab-Freigaben definiert (Stand 19.08.2026, Projekt gerade erst angelegt) — bis auf Weiteres vor Commit/Push, Submodule-Änderungen und allem, was über lokale Docker-Instanzen hinausgeht, kurz Rückmeldung einholen. Diese Sektion nach den ersten Arbeitszyklen konkretisieren (analog zum Vorgehen im `stattreisen`-Projekt).
+
+## Zusammenarbeit mehrerer Agenten
+
+- Findings und Entscheidungen, die über den einzelnen Commit hinaus relevant sind, hält der Agent als Kommentar auf dem betreffenden Work Package fest — nicht nur im Pull-Request-Text, damit sie auch außerhalb der Code-/PR-Historie nachvollziehbar bleiben.
+- Jeder Agent kommentiert das Work Package knapp, sobald er seine Rolle/seinen Durchgang abgeschlossen hat (z. B. „Security-Review abgeschlossen, keine kritischen Findings") — so zeigt das Ticket selbst auf einen Blick, welche Stufen bereits durchlaufen wurden.
